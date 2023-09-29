@@ -2,6 +2,52 @@ body {
     background-color: #fefefe; /* Tutaj wpisz wybrany kolor tła */
 }
 
-h2 {
-    color: #1460aa;
+
+
+.header {
+
+}
+
+.main-header {
+
+}
+
+.h1-header {
+    color: #ab4516;
+}
+
+.h2-header {
+    color: #16ab47;
+}
+
+.h3-header {
+    color: #165cab;
+}
+
+.portfolio {
+
+}
+
+.who-i-am {
+
+}
+
+.what-i-do {
+
+}
+
+.about {
+
+}
+
+.industry {
+
+}
+
+.footer {
+
+}
+
+.text {
+
 }

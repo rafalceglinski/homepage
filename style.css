@@ -10,7 +10,13 @@ body {
     background-color: #fefefe; /* Tutaj wpisz wybrany kolor tła */
 }
 
+.navigation {
 
+}
+
+.navigation__link {
+
+}
 
 .header {
 
@@ -20,42 +26,62 @@ body {
 
 }
 
-.h1-header {
+.main-header {
     color: #ab4516;
 }
 
-.h2-header {
+.profile__header {
     color: #16ab47;
 }
 
-.h3-header {
+.portfolio__header--h2 {
+    color: #16ab47;
+}
+
+.portfolio__header--h3 {
     color: #165cab;
+}
+
+.footer__header {
+    color: #16ab47;
+}
+
+.profile {
+
+}
+
+.profile__about-me {
+
+}
+
+.profile__text {
+
+}
+
+.profile__about-myself {
+
 }
 
 .portfolio {
 
 }
 
-.who-i-am {
+.portfolio__article {
 
 }
 
-.what-i-do {
-
-}
-
-.about {
-
-}
-
-.industry {
-
+.portfolio__text {
+    
 }
 
 .footer {
 
 }
 
-.text {
+.footer__header {
+
+}
+
+.footer__text {
 
 }

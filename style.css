@@ -7,95 +7,91 @@ html {
 }
 
 body {
-    background-color: #fefefe; /* Tutaj wpisz wybrany kolor tła */
-    
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
 }
 
 .picture {
     display: block;
-    max-width: 800px;
+    max-width: 100%;
     margin: 0 auto; 
     padding: 10px;
+    border: 2px solid;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+}
+
+main {
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .navigation {
-    max-width: 433px; /* Maksymalna szerokość kontenera */
-    margin: 0 auto; /* Automatyczne wyśrodkowanie kontenera */
-    padding: 10px;
+    /*max-width: 433px; /* Maksymalna szerokość kontenera */
+    /*margin: 0 auto; /* Automatyczne wyśrodkowanie kontenera */
+    /*padding: 10px;
     background-color: #307679; /* Tutaj wpisz wybrany kolor tła */
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .navigation__link {
-    background-color: #796e30; /* Tutaj wpisz wybrany kolor tła */
+ /* background-color: #796e30; Tutaj wpisz wybrany kolor tła */
 }
 
+
 .main-header {
-    max-width: 400px;
-    margin: 0 auto;
     padding: 20px;
-}
-
-.main-header {
-    max-width: 400px;
-    margin: 0 auto;
     color: #ab4516;
 }
 
 .profile {
-    max-width: 400px;
-    margin: 0 auto;
+
 }
 
 .profile__header {
-    max-width: 400px;
-    margin: 0 auto;
     color: #16ab47;
     padding-top: 20px;
 }
 
 .profile__about-me {
-    max-width: 400px;
-    margin: 0 auto;
+
 }
 
 .profile__about-myself {
-    max-width: 400px;
-    margin: 0 auto;
+
 }
 
 .profile__text {
-    max-width: 400px;
-    margin: 0 auto;
+
 }
 
 .portfolio {
-    max-width: 400px;
-    margin: 0 auto;
+
 }
 
 .portfolio__header--h2 {
-    max-width: 400px;
-    margin: 0 auto;
+
     color: #16ab47;
     padding-top: 20px;
 }
 
 .portfolio__article {
-    max-width: 400px;
-    margin: 0 auto;
+
 }
 
 .portfolio__header--h3 {
-    max-width: 400px;
-    margin: 0 auto;
     color: #165cab;
     padding-top: 20px;
 }
 
 
 .portfolio__text {
-    max-width: 400px;
-    margin: 0 auto;
+
 }
 
 .footer {
@@ -106,12 +102,9 @@ body {
 } 
 
 .footer__header {
-    max-width: 400px;
-    margin: 0 auto;
     color: #16ab47;
 }
 
 .footer__text {
-    max-width: 400px;
-    margin: 0 auto;
+
 }

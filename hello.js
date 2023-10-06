@@ -12,3 +12,14 @@ const hello  = (name, age) => {
 }
 
 console.log(hello('Rafal', 30));
+
+
+const hamburger = document.querySelector('.hamburger--js')
+
+console.log(hamburger)
+
+hamburger.addEventListener('click', ()=> {
+    console.log('click')
+    const navigation = document.querySelector('.navigation--js')
+    navigation.classList.toggle('navigation--open')
+})

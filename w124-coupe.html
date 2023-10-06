@@ -9,23 +9,28 @@
   </head>
   <body>
     <header class="header">
-        <nav class="navigation">
-          <a class="navigation__link" href="index.html">Strona glowna</a>
-          <a class="navigation__link" href="sec.html">Mercedes sec AMG</a>
-          <a class="navigation__link" href="w124-coupe.html">Mercedes w124 coupe AMG</a>
-        </nav>
-      </header>
+      <nav class="navigation navigation--js navigation--open">
+        <a class="navigation__link" href="index.html">Strona glowna</a>
+        <a class="navigation__link" href="sec.html">Mercedes sec AMG</a>
+        <a class="navigation__link" href="w124-coupe.html"
+          >Mercedes w124 coupe AMG</a>
+          <a class="navigation__link" href="#">BMW E34</a>
+          <a class="navigation__link" href="#">BMW E24</a>
+      </nav>
+      <button class="hamburger hamburger--js" aria-label="menu">🍔</button>
+    </header>
     <main>
       <img class="picture" src="mercedes-w124-coupe-amg.jpg" alt="mercedes w124 coupe amg">
     </main>
     <footer class="footer">
         <h2 class="footer__header">Kontakt</h2>
   
-        <p class="footer__text">
+        <p class="footer__text footer__text--js">
           Jeśli chcesz się ze mną skontaktować, możesz napisać do mnie e-maila na
           adres: twoj@email.com. Chętnie rozmawiam o projektach, współpracy i
           nowych wyzwaniach.
         </p>
       </footer>
+      <script defer src="hello.js"></script>
   </body>
 </html>

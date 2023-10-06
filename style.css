@@ -43,12 +43,14 @@ main {
   font-size: 2rem;
 }
 
+
+
 .navigation {
   /*max-width: 433px; /* Maksymalna szerokość kontenera */
   /*margin: 0 auto; /* Automatyczne wyśrodkowanie kontenera */
   /*padding: 10px;
     background-color: #307679; /* Tutaj wpisz wybrany kolor tła */
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -60,8 +62,9 @@ main {
 }
 
 .navigation--open {
-  display: flex;
+  display: none;
  }
+
 .navigation__link {
   /* background-color: #796e30; Tutaj wpisz wybrany kolor tła */
   text-decoration: none;

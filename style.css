@@ -50,12 +50,18 @@ main {
 }
 
 .profile {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: flex-end;
 }
 
 .profile__header {
+    
     color: #16ab47;
     padding-top: 20px;
+    margin-bottom: 0;
+    order: -11;
 }
 
 .profile__about-me {
@@ -71,20 +77,28 @@ main {
 }
 
 .portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 3fr;
 
+   
 }
 
 .portfolio__header--h2 {
-
+    grid-column: span 2;
     color: #16ab47;
+    justify-self: center;
     padding-top: 20px;
+    margin-bottom: 0;
+    
 }
 
 .portfolio__article {
-
+   
 }
 
 .portfolio__header--h3 {
+    margin-top: 0px;
     color: #165cab;
     padding-top: 20px;
 }

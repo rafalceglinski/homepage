@@ -21,6 +21,10 @@ body {
   border: 2px solid;
 }
 
+.navigation::before {
+  content: "Witaj na mojej stronie"
+}
+
 .header {
     background-color: #16ab47;
     min-height: 50px;
